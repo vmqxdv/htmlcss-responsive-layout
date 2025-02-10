@@ -291,5 +291,30 @@ footer a {
     margin-bottom: 1rem;
     width: 100%;
   }
+
+
+
+
+  .social {
+    margin-bottom: 5%;
+  }
+
+  .social span {
+    display: inline;
+    color: black;
+    font-weight: 600;
+  }
+
+  .social a {
+    text-decoration: none;
+  }
+
+  .social ul li {
+    padding: 0.8rem 4.5rem;
+    border-radius: 2rem;
+  }
+
+
+
   
 }
