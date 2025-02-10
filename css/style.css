@@ -296,7 +296,7 @@ footer a {
 
 
   .social {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
 
   .social span {
@@ -316,5 +316,32 @@ footer a {
 
 
 
-  
+  .banner {
+    margin-bottom: 2%;
+  }
+
+
+
+
+  .presentazione {
+    margin-bottom: 0;
+  }
+
+  .presentazione h3 {
+    margin-bottom: 1%;
+  }
+
+  .presentazione hr {
+    width: 6%;
+    margin-bottom: 3%;
+  }
+
+  .presentazione img {
+    width: 25%;
+  }
+
+  .presentazione p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
 }
