@@ -21,8 +21,14 @@ header h1 {
 
 
 body > :not(header) {
-  background-color: #f6f5f3;
   font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+main {
+  background-color: #f6f5f3;
 }
 
 
@@ -146,4 +152,28 @@ body > :not(header) {
 .presentazione p {
   line-height: 2rem;
   margin-bottom: 4%;
+}
+
+
+
+
+footer {
+  background-color: #7c69a4;
+  text-align: center;
+  color: white;
+  line-height: 2rem;
+  padding: 5% 0;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+footer a {
+  color: white;
 }
