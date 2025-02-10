@@ -244,4 +244,17 @@ footer a {
     padding: 0 5%;
   }
 
+
+
+
+  .presentazione img {
+    float: left;
+    width: 45%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
 }
+
+
+
