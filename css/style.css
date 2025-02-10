@@ -344,4 +344,21 @@ footer a {
     font-size: 1.2rem;
     margin-bottom: 0;
   }
+
+
+
+  footer {
+    padding: 1%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  footer ul {
+    width: 35%;
+    gap: 0;
+    justify-content: space-between;
+  }
+
 }
