@@ -93,6 +93,10 @@ main {
   margin-bottom: 7%;
 }
 
+.social span {
+  display: none;
+}
+
 .social ul {
   display: flex;
   list-style-type: none;
@@ -287,5 +291,5 @@ footer a {
     margin-bottom: 1rem;
     width: 100%;
   }
-
+  
 }
