@@ -2,10 +2,77 @@
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
+
+
+
 header h1 {
   color: #ff9614;
   font-family: 'Nerko One', cursive;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 1px 1px rgba(0,0,0, 0.5);
   text-align: center;
+}
+
+
+
+
+body > :not(header) {
+  background-color: #f6f5f3;
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.container {
+  width: 100%;
+  padding: 5% 0;
+}
+
+.dettagli {
+  margin: 0 5%;
+}
+
+.categoria {
+  color: #a599a5;
+  margin-bottom: 0.5rem;
+}
+
+.dettagli h2 {
+  color: #4e3969;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card .info {
+  padding: 7% 6%;
+}
+
+.card .info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.card .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
+.banner {
+  display: none;
 }
