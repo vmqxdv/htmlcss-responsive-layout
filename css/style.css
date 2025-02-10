@@ -35,7 +35,7 @@ body > :not(header) {
 
 .dettagli {
   margin: 0 5%;
-  margin-bottom: 8%;
+  margin-bottom: 7%;
 }
 
 .categoria {
@@ -82,7 +82,7 @@ body > :not(header) {
 
 
 .social {
-  padding-bottom: 8%;
+  margin-bottom: 7%;
 }
 
 .social ul {
