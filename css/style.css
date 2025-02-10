@@ -74,8 +74,6 @@ main {
 }
 
 .card .info ul {
-  display: flex;
-  flex-direction: column;
   gap: 1rem;
   list-style-type: none;
   padding: 0;
@@ -211,6 +209,7 @@ footer a {
   }
 
   .card .info ul {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
@@ -258,3 +257,35 @@ footer a {
 
 
 
+
+@media screen and (min-width: 992px) {
+  
+  main {
+    padding: 0 10%;
+  }
+
+
+
+
+  .dettagli .card {
+    display: flex;
+  }
+
+  .card .video {
+    width: 70%;
+  }
+
+  .card .info {
+    width: 20%;
+  }
+
+  .card .info ul {
+    display: block;
+  }
+
+  .card .info ul li {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+}
