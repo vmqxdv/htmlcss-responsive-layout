@@ -119,3 +119,31 @@ body > :not(header) {
 
 
 
+.presentazione {
+  padding: 0 5%;
+}
+
+.presentazione h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+.presentazione hr {
+  width: 17%;
+  border: 1px solid #f7972e;
+  margin-bottom: 4%;
+}
+
+.presentazione img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 3%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.presentazione p {
+  line-height: 2rem;
+  margin-bottom: 4%;
+}
