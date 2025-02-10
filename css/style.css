@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+header h1 {
+  color: #ff9614;
+  font-family: 'Nerko One', cursive;
+  font-size: 3.5rem;
+  text-shadow: 1px 1px rgba(0,0,0, 0.5);
+  text-align: center;
+}
